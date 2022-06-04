@@ -6,10 +6,14 @@ public class NameFullHalfFifth {
     private int half;
     private int fifth;
 
-    public NameFullHalfFifth(String name, int fifth) {
+    public NameFullHalfFifth(String name, int full) {
         this.name = name;
-        this.full = fifth * 5;
-        this.half = (int) ((fifth * 5) / 2);
-        this.fifth = fifth;
+        this.full = full;
+        this.half = (full / 2);
+        this.fifth =  (full / 5);
+    }
+
+    public NameFullHalfFifth(){
+
     }
 }

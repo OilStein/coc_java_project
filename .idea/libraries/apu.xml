@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="apu">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ohj2_libs/Ali.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../ohj2_libs/fxgui.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../ohj2_libs/Graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../ohj2_libs/lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../ohj2_libs/Music.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

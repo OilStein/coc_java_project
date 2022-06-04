@@ -1,16 +1,18 @@
 package coc.classes;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+@EqualsAndHashCode(callSuper = true)
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Characteristic extends NameFullHalfFifth{
 
-    private int hp;
-    private int luck;
-    private int sanity;
-    private int magicPoints;
-
-    public Characteristic(String name, int fifth){
-        super(name, fifth);
+    public Characteristic(String name, int full){
+        super(name, full);
     }
-
-
 
 }

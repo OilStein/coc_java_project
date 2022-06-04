@@ -1,15 +1,19 @@
 package coc;
 
-import coc.ui.UserInterface;
+import javafx.application.Application;
+import javafx.stage.Stage;
 
-import java.util.Scanner;
+public class Main extends Application {
 
-public class Main {
+    @Override
+    public void start(Stage window) {
+        window.setTitle("CoC - Main");
+        window.setHeight(360);
+        window.setWidth(360);
+        window.show();
+    }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        UserInterface ui = new UserInterface(scanner);
-
-        ui.printTitle();
+        launch(Main.class);
     }
 }

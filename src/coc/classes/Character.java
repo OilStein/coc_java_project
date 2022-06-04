@@ -1,28 +1,35 @@
 package coc.classes;
 
+import coc.database.Characteristics;
+import coc.database.Skills;
+import lombok.Data;
+
+import java.util.Random;
+
+@Data
 public class Character {
 
-    private String name;
-    private String player;
+    private BaseInfo baseInfo;
+    private Characteristics characteristics;
     private Occupation occupation;
-    private int age;
-    private String sex;
-    private String residence;
-    private String birthplace;
+    private Skills skills;
 
-    public Character(String name, String player, Occupation occupation, int age, String sex, String residence, String birthplace){
-        this.name = name;
-        this.player = player;
-        this.occupation = occupation;
-        this.age = 0;
-        this.sex = sex;
-        this.residence = residence;
-        this.birthplace = birthplace;
+    public Character(){
+        this.baseInfo = new BaseInfo();
+        this.characteristics = new Characteristics();
+        this.occupation = new Occupation();
+        this.skills = new Skills();
     }
 
-    public Character(String name, String player, Occupation occupation){
-        this.name = name;
-        this.player = player;
-        this.occupation = occupation;
+    public void generateCharacter(){
+        setBaseInfo(baseInfo.generateBaseInfo());
+        characteristics.rollCharacteristics();
+        setOccupation(occupation.makeAlienist());
+
+    }
+
+    @Override
+    public String toString(){
+        return baseInfo.getName();
     }
 }
