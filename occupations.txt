@@ -1,0 +1,220 @@
+Accountant
+Either employed within a business or working as a freelance, consultant with a portfolio of self-employed clients
+or businesses. Diligence and an attention to detail means that most accountants can make good researchers,
+being able to support investigations through the careful analysis of personal and business transactions, financial statements, and other records.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–70
+Suggested Contacts: Business associates, legal professions, financial sector (bankers, other accountants).
+Skills: Accounting, Law, Library Use, Listen, Persuade, Spot Hidden, 2
+
+Acrobat
+Acrobats may be either amateur athletes competing in staged meets—possibly even
+the Olympics—or professionals employed with the entertainment sector (e.g. circuses, carnivals, theatrical performances).
+Occupation Skill Points: EDU × 2 + DEX × 2
+Credit Rating: 9–20
+Suggested Contacts: Amateur athletic circles, sports writers, circuses, carnivals.
+Skills: Climb, Dodge, Jump, Throw, Spot Hidden, Swim, 2
+
+Stage Actor
+Usually a stage or film actor. Many stage actors have a background in the classics and, considering themselves “legitimate,”
+have a tendency to look down upon the commercial efforts of the film industry, although by the late twentieth
+century this is diminished, with film actors able to command greater respect and higher fees.
+Movie stars and the film industry have long captured the interest of people across the world. Many stars are made
+overnight and most of them lead flashy, high profile lives, ever in the media spotlight.
+In the 1920s, the theatrical center of the U.S. is in New York City, although there are major stages in most cities
+across the country. A similar situation exists in England, with touring repertory companies traveling the counties, with
+London the heart of theatrical shows. Touring companies travel by train, presenting new plays, as well as classics by
+Shakespeare and others. Some companies spend considerable amounts of time touring foreign parts, such as Canada,
+Hawaii, Australia, and Europe.
+With the introduction of "talkies" in the latter part of the 1920s, many stars of the silent films era cannot cope with
+the transition to sound. The arm-waving histrionics of silent actors give way to more subtle characterizations. John Garfield
+and Francis Bushman are forgotten for new stars, such as Gary Cooper and Joan Crawford.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 9–40
+Suggested Contacts: Theatre industry, newspaper arts critics, actor’s guild or union.
+Skills: Art/Craft (Acting), Disguise, Fighting, History, 2x(Charm, Fast Talk, Intimidate, Persuade), Psychology, 1
+
+Film Star
+Usually a stage or film actor. Many stage actors have a background in the classics and, considering themselves “legitimate,”
+have a tendency to look down upon the commercial efforts of the film industry, although by the late twentieth
+century this is diminished, with film actors able to command greater respect and higher fees.
+Movie stars and the film industry have long captured the interest of people across the world. Many stars are made
+overnight and most of them lead flashy, high profile lives, ever in the media spotlight.
+In the 1920s, the theatrical center of the U.S. is in New York City, although there are major stages in most cities
+across the country. A similar situation exists in England, with touring repertory companies traveling the counties, with
+London the heart of theatrical shows. Touring companies travel by train, presenting new plays, as well as classics by
+Shakespeare and others. Some companies spend considerable amounts of time touring foreign parts, such as Canada,
+Hawaii, Australia, and Europe.
+With the introduction of "talkies" in the latter part of the 1920s, many stars of the silent films era cannot cope with
+the transition to sound. The arm-waving histrionics of silent actors give way to more subtle characterizations. John Garfield
+and Francis Bushman are forgotten for new stars, such as Gary Cooper and Joan Crawford.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 20–90
+Suggested Contacts: Film industry, media critics, writers.
+Skills: Art/Craft (Acting), Disguise, Drive Auto,  2x(Charm, Fast Talk, Intimidate,Persuade), Psychology, 2
+
+Agency Detective
+Numerous well-known detective agencies exist around the world, with probably the most famous being the Pinkerton
+and Burns agencies (merged into one in modern times). Large agencies employ two types of agents: security guards
+and operatives.
+Guards are uniformed patrolmen, hired by companies and individuals to protect property and people against burglars,
+assassins and kidnappers. Use the Uniformed Police Officer’s description for these characters. Company Operatives
+are plainclothes detectives, sent out on cases requiring them to solve mysteries, prevent murders, locate missing people, and so on.
+Occupation Skill Points: EDU × 2 + (STR × 2 or DEX × 2)
+Credit Rating: 20–45
+Suggested Contacts: Local law enforcement, clients.
+Skills: 1x(Charm, Fast Talk, Intimidate, Persuade), Fighting (Brawl), Firearms, Law, Library Use, Psychology, Stealth, Track
+
+Alienist [Classic]
+In the 1920s, "alienist" is the term given for those who treat mental illness (early psychiatrists). Psychoanalysis is barely
+known in the U.S., and its basis in sexual life and toilet training is felt to be indecent. Psychiatry, a standard medical
+education augmented by behaviorism, is more common. Intellectual wars rage between alienists, psychiatrists, and
+neurologists.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–60
+Suggested Contacts: Others in the field of mental illness, medical doctors, and occasionally detectives in law enforcement.
+Skills: Law, Listen, Medicine, Other Language, Psychoanalysis, Psychology, Biology, Chemistry
+
+Animal Trainer
+May be employed by film studios, a travelling circus, a horse
+stable, or possibly working freelance. Whether training guide
+dogs for the blind or teaching a lion to jump through a flaming
+hoop, the animal trainer usually works alone, spending
+long hours in close proximity with the animals in their care.
+An animal trainer can use the Psychology skill with animals
+as well as people.
+Occupation Skill Points: EDU × 2 + (APP × 2 or POW × 2)
+Credit Rating: 10–40
+Suggested Contacts: Zoos, circus folk, patrons, actors.
+Skills: Jump, Listen, Natural World, Psychology, Zoology, Stealth, Track, 1
+
+Antiquarian [Lovecraftian]
+A person who delights in the timeless excellence of design and execution, and in the power of ancient lore. Probably the
+most Lovecraft-like occupation available to an investigator. An independent income allows the antiquarian to explore
+things old and obscure, perhaps sharpening their focus down particular lines of enquiry based on personal preference and
+interest. Usually a person with an appreciative eye and a swift mind, who frequently finds mordant or contemptuous
+humor in the foolishness of the ignorant, the pompous, and the greedy.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–70
+Suggested Contacts: Booksellers, antique collectors, historical societies.
+Skills: Appraise, Art/Craft (any), History, Library Use, Other Language, 1x(Charm, Fast Talk, Intimidate, Persuade), Spot Hidden, 1
+
+Antique Dealer
+Antique dealers usually own their own shop, retail items out of their homes, or go on extended buying trips, making a profit on reselling to urban stores.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–50
+Suggested Contacts: Local historians, other antique dealers, possibly criminal fences.
+Skills: Accounting, Appraise, Drive Auto, 2x(Charm, Fast Talk, Intimidate, or Persuade), History, Library Use, Navigate
+
+Archaeologist [Lovecraftian]
+The study and exploration of the past. Primarily the identification, examination, and analysis of recovered materials
+relating to human history. The work involves painstaking research and meticulous study, not to mention a willing attitude to getting one’s hands dirty.
+In the 1920s, successful archaeologists became celebrities, seen as explorers and adventurers. While some used scientific methods, many were happy to apply brute force
+when unveiling the secrets of the past— the use of dynamite was sometimes common. Such bullish behavior would be frowned upon in modern times.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–40
+Suggested Contacts: Patrons, museums, universities.
+Skills: Appraise, Archaeology, History, Other Language, Library Use, Spot Hidden, Mechanical Repair, 1x(Navigate, Science)
+
+Architect
+Architects are trained to design and plan buildings, whether a small conversion to a private house or a multi-million dollar construction project.
+The architect will work closely with the project manager and oversee the construction. Architects must be aware of local planning laws, health
+and safety regulation, and general public safety.
+Some may work for large firms or work freelance. A lot will depend on reputation. In the 1920s, many try and go it alone, working out of their house or a small office. Few manage to sell the grandiose designs they all nurse.
+Architecture may also encompass specialist areas like naval architecture and landscape architecture.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–70
+Suggested Contacts: Local building and city engineering departments, construction firms.
+Skills: Accounting, Technical Drawing, Law, Own Language, Library Use, Persuade, Psychology, Mathematics
+
+Artist
+May be a painter, sculptor, etc. Sometimes self-absorbed and driven with a particular vision, sometimes blessed
+with a great talent that is able to inspire passion and understanding. Talented or not, the artist’s ego must be hardy and
+strong to surmount initial obstacles and critical appraisal, and to keep them working if success arrives. Some artists
+care not for material enrichment, while others have a keen entrepreneurial streak.
+Occupation Skill Points: EDU × 2 + (DEX × 2 or POW × 2)
+Credit Rating: 9–50
+Suggested Contacts: Art galleries, critics, wealthy patrons, the advertising industry.
+Skills: Art/Craft (any), History or Natural World, 1x(Charm, Fast Talk, Intimidate, Persuade), Other Language, Psychology, Spot Hidden, 2
+
+Asylum Attendant
+Although there are private sanitariums for those few who can afford them, the vast bulk of the mentally ill are housed
+in state and county facilities. Aside from a few doctors and nurses, they employ a large number of attendants, often
+chosen more for their strength and size rather than medical learning.
+Occupation Skill Points: EDU × 2 + (STR × 2 or DEX × 2)
+Credit Rating: 8–20
+Suggested Contacts: Medical staff, patients, and relatives of patients. Access to medical records, as well as drugs and other medical supplies.
+Skills: Dodge, Fighting (Brawl), First Aid, 2x(Charm, Fast Talk, Intimidate, Persuade), Listen, Psychology, Stealth.
+
+Athlete
+Probably plays in a professional baseball, football, cricket, or basketball team. This may be a major league team with a
+regular salary and national attention or—particularly in the case of 1920s baseball—one of many minor league teams,
+some of them owned and operated by major league owners. The latter pay barely enough to keep players fed and on the team.
+Successful professional athletes will enjoy a certain amount of celebrity within the arena of their expertise—
+more so in the present day where sporting heroes stand side by side with film stars on red carpets around the world.
+Occupation Skill Points: EDU × 2 + (DEX × 2 or STR × 2)
+Credit Rating: 9–70
+Suggested Contacts: Sports personalities, sports writers, other media stars.
+Skills: Climb, Jump, Fighting (Brawl), Ride, 1x(Charm, Fast Talk, Intimidate, Persuade), Swim, Throw, 1
+
+Author [Lovecraftian]
+As distinct from the journalist, the author uses words to define and explore the human condition, especially the
+range of human emotions. Their labors are solitary and the rewards solipsistic: only a relative handful make much
+money in the present day, though in previous eras the trade once provided a regular living wage.
+The work habits of authors vary widely. Typically an author might spend months or years researching in preparation
+for a book, then withdrawing for periods of intense creation.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–30
+Suggested Contacts: publishers, critics, historians, etc.
+Skills: Art (Literature), History, Library Use, (Natural World, Occult), Other Language, Own Language, Psychology, 1
+
+Bartender
+Normally not the owner of the bar, the bartender is everyone’s friend. For some it’s a career or their business, for
+many it's a means to an end. In the 1920s the profession is made illegal by the Prohibition
+Act; however, there’s no shortage of work for a bartender, as someone has to serve the drinks in the speakeasies and secret gin joints.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 8–25
+Suggested Contacts: Regular customers, possibly organized crime.
+Skills: Accounting, 2x(Charm, Fast Talk, Intimidate, Persuade), Brawl, Listen, Psychology, Spot Hidden, 1
+
+Big Game Hunter
+Big game hunters are skilled trackers and hunters who usually earn their living leading safaris for wealthy clients.
+Most are specialized in one part of the world, such as the Canadian woods, African plains, and other locales. Some
+hunters may work for the black market, capturing live exotic species for private collectors, or trading in illegal or
+morally objectionable animal products like skins, ivory, and the like—although in the 1920s such activities were more
+common and were permissible under most countries’ laws. Although the "great white hunter" is the quintessential
+type, others may be simply local indigenous people who escort hunters through the backwoods of the Yukon in search of moose or bear.
+Occupation Skill Points: EDU × 2 + (DEX × 2 or STR × 2)
+Credit Rating: 20–50
+Suggested Contacts: Foreign government officials, game wardens, past (usually wealthy) clients, black-market gangs and traders, zoo owners.
+Skills: Firearms, Listen or Spot Hidden, Natural World, Navigate, Other Language or Survival (any), Biology or Botany, Stealth, Track.
+
+Book Dealer
+A book dealer may be the owner of a retail outlet or niche mail order service, or specialize in buying trips across the
+country and even overseas. Many will have wealthy or regular clients, who provide lists of sought-after and rare works.
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–40.
+Suggested Contacts: Bibliographers, book dealers, libraries and universities, clients.
+Skills: Accounting, Appraise, Drive Auto, History, Library Use, Own Language, Other Language, 1x(Charm, Fast Talk, Intimidate, Persuade),
+
+Bounty Hunter
+Bounty hunters track down and return fugitives to justice. Most often, freelancers are employed by Bail Bondsmen to
+track down bail jumpers. Bounty hunters may freely cross state lines in pursuit of their quarry and may show little
+regard for civil rights and other technicalities when capturing their prey. Breaking and entering, threats, and physical
+abuse are all part of the successful bounty hunter’s bag of tricks. In modern times this may stem to illegal phone taps,
+computer hacking, and other covert surveillance.
+Occupation Skill Points: EDU × 2 + (DEX × 2 or STR × 2)
+Credit Rating: 9–30
+Suggested Contacts: Bail bondsmen, local police, criminal informants.
+Skills: Drive Auto, Electronic or Electrical Repair, Fighting or Firearms, 1x(Fast Talk, Charm, Intimidate, or Persuade), Law, Psychology, Track, Stealth.
+
+Boxer/Wrestler
+Professional boxers and wrestlers are managed by individuals (promoters) possibly backed by outside interests,
+and usually locked into contracts. Professional boxers and wrestlers work and train full-time.
+Amateur boxing competitions abound, a training ground for those aspiring to professional status. In addition,
+amateur and post-professional boxers and wrestlers can sometimes be found making a living from illegal
+bare-knuckle fights, usually arranged by organized crime gangs or entrepreneurial locals.
+Occupation Skill Points: EDU × 2 + STR × 2
+Credit Rating: 9–60
+Suggested Contacts: Sports promoters, journalists, organized crime, professional trainers.
+Skills: Dodge, Fighting (Brawl), Intimidate, Jump, Psychology, Spot Hidden, 1
