@@ -1,6 +1,7 @@
 package coc.database;
 
-import coc.classes.Occupation;
+import coc.character.Occupation;
+
 import java.util.HashMap;
 
 public class Occupations {

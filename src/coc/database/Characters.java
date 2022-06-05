@@ -1,6 +1,6 @@
 package coc.database;
 
-import coc.classes.Character;
+import coc.character.Character;
 
 import java.util.ArrayList;
 

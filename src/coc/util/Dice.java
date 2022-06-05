@@ -6,7 +6,7 @@ public class Dice {
 
     public int rollCharacteristic(){
         Random roller = new Random();
-        return roller.nextInt(15) + 3;
+        return (roller.nextInt(15) + 3) * 5;
     }
 
     public int roll100() {

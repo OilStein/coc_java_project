@@ -1,0 +1,80 @@
+Accounting|05|base
+Acting|05|art
+Animal Handling|05|base
+Anthropology|01|base
+Appraise|05|base
+Archaeology|01|base
+Artillery|01|firearms
+Astronomy|01|science
+Axe|15|fighting
+Biology|01|science
+Botany|01|science
+Bow|15|firearms
+Brawl|25|base
+Chainsaw|10|fighting
+Charm|15|base
+Chemistry|01|science
+Climb|20|base
+Computer Use|05|modern
+Credit Rating|00|base
+Cryptography|01|science
+Cthulhu Mythos|00|base
+Demolitions|01|uncommon
+Disguise|05|base
+Diving|01|base
+Dodge|00|base
+Drive Auto|20|base
+Electrical Repair|10|base
+Electronics|01|science
+Fast Talk|05|base
+Fine Art|05|art
+First Aid|30|base
+Flail|10|fighting
+Flamethrower|10|firearms
+Forensics|05|science
+Forgery|01|art
+Garrote|15|fighting
+Geology|01|science
+Handgun|20|base
+Heavy Weapons|10|uncommon
+History|05|base
+Hypnosis|01|uncommon
+Intimidate|15|base
+Jump|20|base
+Language(Other)|01|base
+Language(Own)base|00|base
+Law|05|base
+Library Use|20|base
+Listen|20|base
+Locksmith|01|base
+Machine Gun|10|firearms
+Mathematics|01|science
+Mechanical Repair|10|base
+Medicine|01|base
+Meteorology|01|science
+Natural World|10|base
+Navigate|10|base
+Occult|05|base
+Operate Heavy Machinery|01|base
+Persuade|10|base
+Pharmacy|01|science
+Photography|05|art
+Physics|01|science
+Pilot|01|base
+Psychoanalysis|01|base
+Psychology|10|base
+Read Lips|01|uncommon
+Ride|05|base
+Rifle/Shotgun|25|base
+Sleight of Hand|10|base
+Spear|20|fighting
+Spot Hidden|25|base
+Stealth|20|base
+Submachine Gun|15|firearms
+Survival|10|base
+Sword|20|fighting
+Swim|20|base
+Throw|20|base
+Track|10|base
+Whip|05|fighting
+Zoology|01|science

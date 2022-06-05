@@ -1,5 +1,6 @@
 package coc;
 
+import coc.character.Character;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
@@ -14,6 +15,9 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        launch(Main.class);
+        //launch(Main.class);
+        Character test = new Character();
+        test.generateCharacter();
+        System.out.println(test);
     }
 }
