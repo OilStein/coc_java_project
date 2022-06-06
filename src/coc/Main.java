@@ -1,6 +1,7 @@
 package coc;
 
 import coc.character.Character;
+import coc.database.Occupations;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
@@ -16,8 +17,11 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         //launch(Main.class);
+        Occupations occupations = new Occupations();
+        occupations.initOccupations();
         Character test = new Character();
         test.generateCharacter();
-        System.out.println(test);
+        // System.out.println(test);
+        System.out.println(occupations);
     }
 }

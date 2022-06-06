@@ -10,18 +10,25 @@ import lombok.NoArgsConstructor;
 public class Occupation {
 
     private String name;
-    private String favCharacteristic;
-    private String favSkills;
+    private String description;
+    private String points;
+    private String skills;
     private String creditRating;
+    private String contacts;
 
     public void makeAlienist() {
         this.name = "Alienist";
-        this.favCharacteristic = "EDU x 4";
-        this.favSkills = "Law, Listen, Medicine, Other Language, Psychoanalysis, Psychology, Science (Biology), Science (Chemistry)";
+        this.points = "EDU x 4";
+        this.skills = "Law, Listen, Medicine, Other Language, Psychoanalysis, Psychology, Science (Biology), Science (Chemistry)";
         this.creditRating = "10-60";
     }
 
     public String toString() {
-        return "Occupation: " + this.name;
+        return this.name + "\n" +
+                this.description + "\n" +
+                this.points + "\n" +
+                this.creditRating + "\n" +
+                this.contacts + "\n" +
+                this.skills + "\n";
     }
 }
