@@ -2,7 +2,12 @@ package coc.character;
 
 import coc.util.Dice;
 
+import java.util.Arrays;
+
 public class Points {
+    private int occupationPoints;
+    private int interestPoints;
+
     private int build;
     private int hp;
     private int sanity;
@@ -11,6 +16,8 @@ public class Points {
     private int movement;
 
     public Points() {
+        this.occupationPoints = 0;
+        this.interestPoints = 0;
         this.build = 0;
         this.hp = 0;
         this.sanity = 0;
@@ -19,24 +26,57 @@ public class Points {
         this.movement = 0;
     }
 
-    public void calculatePoints(int str, int dex, int con, int siz, int pow, int age) {
-        calculateBuild(str, siz);
-        calculateHP(con, siz);
-        calculateMagic(pow);
+    public void calculatePoints(Characteristics ch, int age, Occupation occ) {
+        calculateOccupationPoints(ch, occ);
+        calculateInterestPoints(ch.getCharacteristicValue("INT"));
+
+        calculateBuild(ch.getCharacteristicValue("STR"), ch.getCharacteristicValue("CON"));
+        calculateHP(ch.getCharacteristicValue("CON"), ch.getCharacteristicValue("SIZ"));
+        calculateMagic(ch.getCharacteristicValue("POW"));
         calculateLuck();
-        calculateSanity(pow);
-        calculateMovement(str, dex, siz, age);
+        calculateSanity(ch.getCharacteristicValue("POW"));
+        calculateMovement(
+                ch.getCharacteristicValue("STR"),
+                ch.getCharacteristicValue("DEX"),
+                ch.getCharacteristicValue("SIZ"),
+                age
+        );
     }
 
     @Override
     public String toString() {
         return "Points: \n" +
+                "Occupation Points: " + occupationPoints + "\n" +
+                "Interest Points: " + interestPoints + "\n" +
                 "Build: " + build + "\n" +
                 "HP: " + hp + "\n" +
                 "Sanity: " + sanity + "\n" +
                 "Luck: " + luck + "\n" +
                 "Magic: " + magic + "\n" +
                 "Movement: " + movement;
+    }
+
+    private void calculateOccupationPoints(Characteristics cha, Occupation occ) {
+        if (occ.getPoints().length() < 7) {
+            String[] specs = occ.getPoints().split("x");
+            System.out.println(Arrays.toString(specs));
+            if (specs.length == 2) {
+                int eduMultiplier = Integer.parseInt(specs[1].trim());
+                this.occupationPoints = eduMultiplier * cha.getCharacteristicValue("EDU");
+            }
+        }
+        if (occ.getPoints().contains("+") && !occ.getPoints().contains("(")) {
+            int sum = 0;
+            String[] specs = occ.getPoints().split("\\+");
+            String[] first = specs[1].split("x");
+
+
+        }
+
+    }
+
+    private void calculateInterestPoints(int intValue) {
+        this.interestPoints = 2 * intValue;
     }
 
     private void calculateBuild(int str, int siz) {

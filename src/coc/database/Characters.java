@@ -14,7 +14,6 @@ public class Characters {
     public void generateCharacter(){
         for (int i = 0; i < 6; i++) {
             Character character = new Character();
-
         }
 
     }

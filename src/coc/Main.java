@@ -20,8 +20,8 @@ public class Main extends Application {
         Occupations occupations = new Occupations();
         occupations.initOccupations();
         Character test = new Character();
-        test.generateCharacter();
-        // System.out.println(test);
-        System.out.println(occupations);
+        test.generateCharacter(occupations);
+        System.out.println(test);
+        // System.out.println(occupations);
     }
 }

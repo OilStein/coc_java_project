@@ -1,5 +1,6 @@
 package coc.character;
 
+import coc.database.Occupations;
 import lombok.Data;
 
 @Data
@@ -11,7 +12,7 @@ public class Character {
     private Skills skills;
     private Points points;
 
-    public Character(){
+    public Character() {
         this.baseInfo = new BaseInfo();
         this.characteristics = new Characteristics();
         this.occupation = new Occupation();
@@ -19,18 +20,16 @@ public class Character {
         this.points = new Points();
     }
 
-    public void generateCharacter() {
+    public void generateCharacter(Occupations occupations) {
         this.baseInfo.generateBaseInfo();
         this.characteristics.rollCharacteristics();
-        this.occupation.makeAlienist();
+        setOccupation(occupations.getRandomOccupation());
         this.skills.initSkills();
+        // This could contain whole characteristic list instead of singles
         this.points.calculatePoints(
-                this.characteristics.getCharacteristic("STR").getValue(),
-                this.characteristics.getCharacteristic("DEX").getValue(),
-                this.characteristics.getCharacteristic("CON").getValue(),
-                this.characteristics.getCharacteristic("SIZ").getValue(),
-                this.characteristics.getCharacteristic("POW").getValue(),
-                this.baseInfo.getAge()
+                this.characteristics,
+                this.baseInfo.getAge(),
+                this.occupation
         );
     }
 

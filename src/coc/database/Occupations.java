@@ -4,8 +4,7 @@ import coc.character.Occupation;
 
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class Occupations {
 
@@ -13,6 +12,12 @@ public class Occupations {
 
     public Occupations() {
         this.occupations = new HashMap<>();
+    }
+
+    public Occupation getRandomOccupation() {
+        Random random = new Random();
+        List<String> list = new ArrayList<>(occupations.keySet());
+        return occupations.get(list.get(random.nextInt(list.size())));
     }
 
     public void initOccupations() {
@@ -30,7 +35,7 @@ public class Occupations {
                     while (desc) {
                         String descLine = scanner.nextLine();
                         if (descLine.contains("Occupation Skill Points:")) {
-                            occupation.setPoints(descLine);
+                            occupation.setPoints(descLine.split(":")[1].trim());
                             desc = false;
                             break;
                         }

@@ -28,6 +28,10 @@ public class Characteristics {
         return this.characteristics.get(query);
     }
 
+    public int getCharacteristicValue(String query) {
+        return this.characteristics.get(query).getValue();
+    }
+
     @Override
     public String toString() {
         return "Characteristics: " + characteristics.values();
