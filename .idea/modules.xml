@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ohj2_coc.iml" filepath="$PROJECT_DIR$/ohj2_coc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coc_java_project.iml" filepath="$PROJECT_DIR$/coc_java_project.iml" />
     </modules>
   </component>
 </project>

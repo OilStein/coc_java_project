@@ -11,10 +11,15 @@ public class Characters {
         this.characters = new ArrayList<>();
     }
 
-    public void generateCharacter(){
+    public void generateCharacters(Occupations occupations) {
         for (int i = 0; i < 6; i++) {
             Character character = new Character();
+            character.generateCharacter(occupations);
+            characters.add(character);
         }
+    }
+
+    public void save() {
 
     }
 

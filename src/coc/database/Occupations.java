@@ -12,12 +12,22 @@ public class Occupations {
 
     public Occupations() {
         this.occupations = new HashMap<>();
+        this.initOccupations();
     }
 
     public Occupation getRandomOccupation() {
         Random random = new Random();
         List<String> list = new ArrayList<>(occupations.keySet());
         return occupations.get(list.get(random.nextInt(list.size())));
+    }
+
+    public ArrayList<String> getKeys() {
+        ArrayList<String> keys = new ArrayList<>(this.occupations.keySet());
+        return keys;
+    }
+
+    public Occupation getOccupation(String key) {
+        return this.occupations.get(key);
     }
 
     public void initOccupations() {

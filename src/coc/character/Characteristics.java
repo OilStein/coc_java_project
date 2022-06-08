@@ -19,7 +19,12 @@ public class Characteristics {
     public void rollCharacteristics() {
         Dice dice = new Dice();
         for (String name : CHARACTERISTICS) {
-            Characteristic characteristic = new Characteristic(name, dice.rollCharacteristic());
+            Characteristic characteristic;
+            if (name.equals("INT") || name.equals("EDU") || name.equals("SIZ")) {
+                characteristic = new Characteristic(name, (dice.rollDie(2, 6) + 6) * 5);
+            } else {
+                characteristic = new Characteristic(name, dice.rollCharacteristic());
+            }
             this.characteristics.put(name, characteristic);
         }
     }

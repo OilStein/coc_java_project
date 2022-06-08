@@ -57,7 +57,8 @@ public class Points {
     }
 
     private void calculateOccupationPoints(Characteristics cha, Occupation occ) {
-        if (occ.getPoints().length() < 7) {
+        // EDU x 4
+        if (occ.getPoints().length() < 10) {
             String[] specs = occ.getPoints().split("x");
             System.out.println(Arrays.toString(specs));
             if (specs.length == 2) {
@@ -65,14 +66,47 @@ public class Points {
                 this.occupationPoints = eduMultiplier * cha.getCharacteristicValue("EDU");
             }
         }
+
+        // EDU x 2 + APP x 2
         if (occ.getPoints().contains("+") && !occ.getPoints().contains("(")) {
-            int sum = 0;
-            String[] specs = occ.getPoints().split("\\+");
-            String[] first = specs[1].split("x");
+            String[] line = occ.getPoints().split("\\+");
 
+            String[] edu = line[0].split("x");
+            int eduMultiplier = Integer.parseInt(edu[1].trim());
 
+            String[] other = line[1].split("x");
+            String otherCharacteristic = other[0].trim();
+            int otherMultiplier = Integer.parseInt(other[1].trim());
+
+            this.occupationPoints = eduMultiplier * cha.getCharacteristicValue("EDU") + otherMultiplier * cha.getCharacteristicValue(otherCharacteristic);
         }
 
+        // EDU x 2 + (APP x 2 or DEX x 2)
+        if (occ.getPoints().contains("+") && occ.getPoints().contains("(")) {
+            // EDU x 2 ; (APP x 2 or DEX x 2)
+            String[] line = occ.getPoints().split("\\+");
+
+            String[] edu = line[0].split("x");
+            int eduMultiplier = Integer.parseInt(edu[1].trim());
+
+            // (APP x 2 or DEX x 2)
+            String[] splitter = line[1].split("or");
+            // (APP x 2
+            String[] first = splitter[0].split("x");
+            String fChar = first[0].substring(2).trim();
+            int fMulti = Integer.parseInt(first[1].trim());
+            int value1 = fMulti * cha.getCharacteristicValue(fChar);
+            // DEX x 2)
+            String[] second = splitter[0].split("x");
+            String sChar = second[0].substring(2).trim();
+            System.out.println(sChar);
+            int sMulti = Integer.parseInt(second[1].substring(0, second[1].length() - 1).trim());
+            int value2 = sMulti * cha.getCharacteristicValue(sChar);
+
+            // chooses better
+            this.occupationPoints = eduMultiplier * cha.getCharacteristicValue("EDU") + Math.max(value1, value2);
+
+        }
     }
 
     private void calculateInterestPoints(int intValue) {
